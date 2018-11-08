@@ -6,6 +6,7 @@ import java.util.*;
 
 /**
  * Created by girishkumarbanda on 30/03/2017 AD.
+ * @noinspection ALL
  */
 public class KruskalMST {
 

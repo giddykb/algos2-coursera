@@ -8,6 +8,7 @@ import java.util.Scanner;
 
 /**
  * Created by girishkumarbanda on 29/03/2017 AD.
+ * @noinspection ALL
  */
 public class EdgeWeightedGraph {
 

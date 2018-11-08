@@ -4,6 +4,7 @@ import com.peace.directed.DirectedCycle;
 
 /**
  * Created by girishkumarbanda on 30/03/2017 AD.
+ * @noinspection ALL
  */
 public class DirectedEdge {
 

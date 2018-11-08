@@ -10,6 +10,7 @@ import java.util.Scanner;
 
 import com.peace.undirected.graph.interfaces.GraphInterface;
 
+/** @noinspection ALL */
 public class Graph implements GraphInterface {
 
 	private int V;

@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-/*
+/** @noinspection ALL */ /*
  * This class represents the data type for determining the vertices connected to 
  * source and address whether the given input graph is connected or not 
  * */

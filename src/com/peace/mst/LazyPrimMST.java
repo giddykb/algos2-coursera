@@ -6,6 +6,7 @@ import java.util.*;
 
 /**
  * Created by girishkumarbanda on 30/03/2017 AD.
+ * @noinspection ALL
  */
 public class LazyPrimMST {
 
@@ -17,12 +18,12 @@ public class LazyPrimMST {
     LazyPrimMST(EdgeWeightedGraph G){
         marked = new boolean[G.V()];
         mst = new ArrayDeque<>();
-        pq =  new PriorityQueue<>(new Comparator<Edge>() {
+       /* pq =  new PriorityQueue<>(new Comparator<Edge>() {
             @Override
             public int compare(Edge o1, Edge o2) {
                 return o1.compareTo(o2);
             }
-        });
+        })*/;
 
         visit(G,0);
 

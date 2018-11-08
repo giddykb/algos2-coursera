@@ -7,6 +7,7 @@ import java.util.*;
 /**
  * Created by girishkumarbanda on 29/03/2017 AD.
  * Strongly Connected Components
+ * @noinspection ALL
  */
 public class KosarajuSharirSCC {
     private  boolean marked [];

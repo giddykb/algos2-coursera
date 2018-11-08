@@ -7,6 +7,7 @@ import java.util.Stack;
 
 /**
  * Created by girishkumarbanda on 23/03/2017 AD.
+ * @noinspection ALL
  */
 public class DepthFirstDirectedPaths {
     private  boolean marked[];

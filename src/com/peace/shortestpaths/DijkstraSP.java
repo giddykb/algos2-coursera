@@ -5,6 +5,7 @@ import java.util.PriorityQueue;
 
 /**
  * Created by girishkumarbanda on 30/03/2017 AD.
+ * @noinspection ALL
  */
 public class DijkstraSP {
 

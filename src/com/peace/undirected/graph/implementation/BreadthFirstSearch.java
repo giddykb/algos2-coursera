@@ -8,6 +8,7 @@ import java.util.Queue;
 import java.util.Scanner;
 import java.util.Stack;
 
+/** @noinspection ALL */
 public class BreadthFirstSearch {
 
 	private boolean marked[] ;

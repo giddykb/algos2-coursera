@@ -9,6 +9,7 @@ import java.util.Scanner;
 
 /**
  * Created by girishkumarbanda on 28/03/2017 AD.
+ * @noinspection ALL
  */
 public class SymbolDiGraph {
 

@@ -10,6 +10,7 @@ import java.util.Scanner;
 
 /**
  * Created by girishkumarbanda on 04/04/2017 AD.
+ * @noinspection ALL
  */
 public class LSD {
 
