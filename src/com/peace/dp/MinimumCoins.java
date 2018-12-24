@@ -15,8 +15,8 @@ public class MinimumCoins {
     int amount = 14;
 
     System.out.println(minCoins(coins,amount));
-    //System.out.println(topDown(coins,amount));
-    //System.out.println(bottomUp(coins,amount));
+    System.out.println(topDown(coins,amount));
+    System.out.println(bottomUp(coins,amount));
   }
 
 
