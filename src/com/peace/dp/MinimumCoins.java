@@ -12,7 +12,7 @@ public class MinimumCoins {
 
   public static void main(String[] args) {
     int coins [] = {7,2,3,6};
-    int amount = 14;
+    int amount = 6;
 
     System.out.println(minCoins(coins,amount));
     System.out.println(topDown(coins,amount));

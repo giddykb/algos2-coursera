@@ -179,22 +179,31 @@ public class BinaryTree {
     t3.right=t7;
     root.left=t2;
     root.right=t3;*/
-    Node n1 = new Node(5);
-    Node n2 = new Node(2);
-    Node n3 = new Node(13);
+    Node n1 = new Node(25);
+    Node n2 = new Node(1);
+    Node n3 = new Node(3);
+    Node n4  = new Node(1);
+    Node n5 = new Node(3);
+    Node n6 = new Node(0);
+    Node n7 = new Node(2);
+    n1.right = n3;
+    n1.left = n2;
+    n2.left = n4; n2.right = n5;
+    n3.left = n6 ; n3.right = n7;
+
     /*Node n4 = new Node(-2);
     Node n5 = new Node(4);
     Node n6 = new Node(-6);
     Node n7 = new Node(10);*/
 //    Node n8 = new Node(45);
 //    n8.right = new Node(65);
-    n1.left = n2 ;
-    n1.right = n3;
-    /*n2.left = n4;
-    n2.right = n5 ;
-    n3.left = n6;
-    n3.right = n7;*/
-   // n5.right = n8;
+//    n1.left = n2 ;
+//    n1.right = n3;
+//    /*n2.left = n4;
+//    n2.right = n5 ;
+//    n3.left = n6;
+//    n3.right = n7;*/
+//   // n5.right = n8;
     this.root = n1;
 
   }
@@ -230,12 +239,12 @@ public class BinaryTree {
 
     BinaryTree bt = new BinaryTree();
     bt.createSampleTree();
-   // bt.printPaths();
+    bt.printPaths();
     try{
       //Integer lca = bt.LCA(new Node(4),new Node (2));
       //Node res = bt.LCAOptimalSolution(new Node(4),new Node (3));
       //System.out.println("LCA is "  +res.value);
-      bt.printRightView();
+      //bt.printRightView();
     } catch (Exception e) {
       System.out.println(e.getMessage());
     }

@@ -1,4 +1,4 @@
-package com.peace.strings;
+package dcp;
 
 /**
  * Created using IntelliJ IDEA

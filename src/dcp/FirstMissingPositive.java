@@ -1,4 +1,4 @@
-package com.peace.arrays;
+package dcp;
 
 /**
  * Created using IntelliJ IDEA
