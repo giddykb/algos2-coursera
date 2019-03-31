@@ -1,6 +1,7 @@
 *.class
 .idea/
 .settings/
-.idea
+.idea/*
 *.iml
 /out/
+.idea/workspace.xml
