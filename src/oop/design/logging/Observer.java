@@ -1,4 +1,4 @@
-package oop.design;
+package oop.design.logging;
 
 /**
  * Created using IntelliJ IDEA

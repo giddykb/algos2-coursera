@@ -1,7 +1,4 @@
-package oop.design.impl;
-
-import oop.design.Observer;
-import oop.design.Subject;
+package oop.design.logging;
 
 /**
  * Created using IntelliJ IDEA

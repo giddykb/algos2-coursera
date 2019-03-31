@@ -1,9 +1,7 @@
-package oop.design;
+package oop.design.logging;
 
 import lombok.Getter;
 import lombok.Setter;
-import oop.design.MessageType;
-import oop.design.Observer;
 
 import java.util.List;
 import java.util.Map;

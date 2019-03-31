@@ -1,4 +1,4 @@
-package oop.design;
+package oop.design.logging;
 
 import java.util.Map;
 
