@@ -12,6 +12,7 @@ import java.util.Queue;
  * Time:    12:07 AM
  */
 public class ZigzagOrder {
+
   public static List<List<Integer>> print(Node t) {
     List<List<Integer>> result = new ArrayList<>();
     if ( t == null) return result;
