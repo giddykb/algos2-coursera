@@ -7,4 +7,7 @@ package dynamic.programming;
  * Time:    8:30 PM
  */
 public class Test {
+  public static void main(String[] args) {
+    System.out.println("Git repo setup");
+  }
 }
