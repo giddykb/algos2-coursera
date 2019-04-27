@@ -114,6 +114,12 @@ public class BinaryTree {
     }
  }
 
+ public boolean isSymmetric(Node left, Node right) {
+    if( left == null && right == null) return true;
+    if ( left == null || right == null) return false;
+    return (left.value == right.value) &&
+        isSymmetric(left.left, right.right) && isSymmetric(left.right, right.left);
+ }
 
  public void printRightView(){
    Queue<Node> queue = new LinkedList<>();
@@ -136,6 +142,7 @@ public class BinaryTree {
 
 
  }
+
 
   private void inOrder(Node n){
     if ( n == null) return;
@@ -179,13 +186,13 @@ public class BinaryTree {
     t3.right=t7;
     root.left=t2;
     root.right=t3;*/
-    Node n1 = new Node(25);
-    Node n2 = new Node(1);
-    Node n3 = new Node(3);
+    Node n1 = new Node(4);
+    Node n2 = new Node(2);
+    Node n3 = new Node(7);
     Node n4  = new Node(1);
     Node n5 = new Node(3);
-    Node n6 = new Node(0);
-    Node n7 = new Node(2);
+    Node n6 = new Node(6);
+    Node n7 = new Node(9);
     n1.right = n3;
     n1.left = n2;
     n2.left = n4; n2.right = n5;

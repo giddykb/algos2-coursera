@@ -2,6 +2,7 @@ package dcp;
 
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -73,6 +74,7 @@ public class ShortestPathInMaze {
       PointDist currNode = pointDistQueue.remove();
 
       if (currNode.getPoint().x == destination.x && currNode.getPoint().y == destination.y) {
+
         return currNode.getDistance();
       }
 
@@ -85,12 +87,17 @@ public class ShortestPathInMaze {
           isVisited[row][col] = true;
           int dist = currNode.getDistance()+1;
           Point p = new Point(row, col);
-          pointDistQueue.add(new PointDist(p, dist));
+          pointDistQueue.add(new PointDist(p, dist,currNode));
         }
       }
     }
     return -1;
   }
+
+  public void  printPath() {
+
+  }
+
 
   public static boolean isValidMove( int i , int j) {
     return i>=0 && i< rows && j>=0 && j < columns;
@@ -99,18 +106,27 @@ public class ShortestPathInMaze {
 
   @Getter
   @Setter
+  @ToString
   private static class PointDist {
     Point point;
     int distance;
+    PointDist prevPoint;
 
     PointDist(Point p1, int distance) {
       this.point = p1;
       this.distance  = distance;
     }
+
+    PointDist(Point p1, int distance, PointDist prevPoint) {
+      this(p1,distance);
+      this.prevPoint = prevPoint;
+    }
+
   }
 
   @Getter
   @Setter
+  @ToString
   private static class Point  {
     int x;
     int y;

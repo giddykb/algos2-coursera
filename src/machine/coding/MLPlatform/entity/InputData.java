@@ -3,7 +3,7 @@ package machine.coding.MLPlatform.entity;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
-import machine.coding.MLPlatform.enums.DataSourceType;
+import machine.coding.MLPlatform.enums.DataSourceTypes;
 
 /**
  * Created using IntelliJ IDEA
@@ -19,6 +19,6 @@ public class InputData {
 
   private Integer id;
   private String name;
-  private DataSourceType sourceType;
+  private DataSourceTypes sourceType;
 
 }

@@ -16,10 +16,8 @@ public class PeakElement {
 
   public  static  void main(String [] args) {
 
-    int a [] = {1,4,3,6,7,5};
+    int a [] = {1,2};
     System.out.println("Peak element : " + findPeak(a));
-    Integer s = new Integer(0);
-    System.out.println(s.equals(1));
   }
 
   private  static int findPeak(int  a[]) {

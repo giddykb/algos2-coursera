@@ -11,10 +11,9 @@ import java.util.Arrays;
 public class ArraySpliting {
 
   public static void main(String[] args) {
-
-    //int inp [] = {4,1,0,1,1,0,1};
-    int inp [] = {2,2,2,2};
-   //System.out.println(arraySplitting(inp));
+    int inp [] = {4,1,0,1,1,0,1};
+    //int inp [] = {2,2,2,2};
+   System.out.println(arraySplitting(inp));
 
     String t = "4514826";
     String [] values = t.split(",");

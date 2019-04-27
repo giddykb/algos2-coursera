@@ -6,7 +6,7 @@ package machine.coding.MLPlatform.enums;
  * Date:    17/04/19
  * Time:    3:08 AM
  */
-public enum DataSourceType {
+public enum DataSourceTypes {
   FILE,
   DB;
 }
